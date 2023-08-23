@@ -4,10 +4,8 @@ I tried to follow the original paper's implementation [1][2][3] as closely as po
 
 ## Supported Modules
 1. VGG_Net_1D [1]
-    - A(11), B(13), C(16), D(16_v2), E(19) (# of layers)
 2. ResNet_1D [2]
 3. RepVGG_Net_1D [3]
-    - A0\~A2, B0~B3 + g2, g4
 
 ## How To Use :
 ```bash
@@ -31,8 +29,11 @@ you can choose sub_module in each file.
 ## TODO :
 ---
   Implement DenseNet_1D, ResNeXt_1D, EfficientNet_1D ...
+
   Add explanation 
+  
   Add example to test
+  
   Add pytorch version
 
 ## References
